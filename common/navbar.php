@@ -4,7 +4,7 @@
           <li>
             <a href="">
               <span class="icon"><ion-icon name="logo-apple-ar"></ion-icon></span>
-              <span class="title">Ultimate Company</span>
+              <span class="title">Company Name</span>
             </a>
           </li>
           <li>
@@ -13,6 +13,14 @@
                 ><ion-icon name="home-outline"></ion-icon
               ></span>
               <span class="title">Main Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <span class="icon"
+                ><ion-icon name="cart-outline"></ion-icon
+              ></span>
+              <span class="title">E-Store</span>
             </a>
           </li>
           <li>
@@ -28,7 +36,7 @@
               <span class="icon"
                 ><ion-icon name="wallet-outline"></ion-icon
               ></span>
-              <span class="title">E-Wallet</span>
+              <span class="title">E-Points</span>
             </a>
           </li>
           <li>
@@ -36,7 +44,7 @@
               <span class="icon"
                 ><ion-icon name="chatbubble-outline"></ion-icon
               ></span>
-              <span class="title">Message</span>
+              <span class="title">Support</span>
             </a>
           </li>          
           

@@ -26,39 +26,73 @@ include('./common/navbar.php');
         <div class="cardBox">
           <div class="card">
             <div>
-              <div class="numbers">1,504</div>
-              <div class="cardName">Daily Views</div>
-            </div>
-            <div class="iconBox"><ion-icon name="eye-outline"></ion-icon></div>
-          </div>
-          <div class="card">
-            <div>
-              <div class="numbers">80</div>
-              <div class="cardName">Sales</div>
-            </div>
-            <div class="iconBox"><ion-icon name="cart-outline"></ion-icon></div>
-          </div>
-          <div class="card">
-            <div>
-              <div class="numbers">284</div>
-              <div class="cardName">Comments</div>
-            </div>
-            <div class="iconBox">
-              <ion-icon name="chatbubbles-outline"></ion-icon>
-            </div>
-          </div>
-          <div class="card">
-            <div>
-              <div class="numbers">$7,842</div>
-              <div class="cardName">Earnings</div>
+              <div class="numbers">₱ 1,000,000</div>
+              <div class="cardName">Total Accumulated Bonus</div>
             </div>
             <div class="iconBox"><ion-icon name="cash-outline"></ion-icon></div>
+          </div>
+          <div class="card">
+            <div>
+              <div class="numbers">₱ 500,000</div>
+              <div class="cardName">Available Bonus</div>
+            </div>
+            <div class="iconBox"><ion-icon name="wallet-outline"></ion-icon></div>
+          </div>
+          <div class="card">
+            <div>
+              <div class="numbers">10,000</div>
+              <div class="cardName">Redeemable Lifestyle Points</div>
+            </div>
+            <div class="iconBox"><ion-icon name="gift-outline"></ion-icon></div>
+          </div>
+          <div class="card">
+            <div>
+              <div class="numbers">150,000</div>
+              <div class="cardName">Total Members</div>
+            </div>
+            <div class="iconBox">
+              <ion-icon name="people-outline"></ion-icon>
+            </div>
+          </div>
+                    
+          <div class="card">
+            <div>
+              <div class="numbers">₱ 50,000</div>
+              <div class="cardName">Direct Referral Bonus (DRB)</div>
+            </div>
+            <div class="iconBox"><ion-icon name="people-outline"></ion-icon></div>
+          </div>
+          <div class="card">
+            <div>
+              <div class="numbers">₱ 100,000</div>
+              <div class="cardName">In-Direct Referral Bonus (in-DRB)</div>
+            </div>
+            <div class="iconBox">
+              <ion-icon name="people-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <div class="numbers">₱ 500,000</div>
+              <div class="cardName">Binary Bonus (BB)</div>
+            </div>
+            <div class="iconBox"><ion-icon name="people-circle-outline"></ion-icon></div>
+          </div>
+          <div class="card">
+            <div>
+              <div class="numbers">₱ 500,000</div>
+              <div class="cardName">Unilevel Bonus (BB)</div>
+            </div>
+            <div class="iconBox"><ion-icon name="people-circle-outline"></ion-icon></div>
           </div>
         </div>
 
         <!-- Charts -->
-        <div class="graphBox">
-          <div class="box"><canvas id="myChart"></canvas></div>
+        <div class="graphBox">          
+          <div class="box">
+            <h2>Income Sources</h2>
+            <canvas id="myChart"></canvas>
+          </div>
           <div class="box"><canvas id="earning"></canvas></div>
         </div>
 
@@ -66,7 +100,7 @@ include('./common/navbar.php');
           <!-- Order details List -->
           <div class="recentOrders">
             <div class="cardHeader">
-              <h2>Recent Orders</h2>
+              <h2>Recent Transactions</h2>
               <a href="#" class="btn">View All</a>
             </div>
             <table>
@@ -152,7 +186,7 @@ include('./common/navbar.php');
           <!-- New Customer -->
           <div class="recentCustomers">
             <div class="cardHeader">
-              <h2>Recent Customers</h2>
+              <h2>Newly Registered Member</h2>
             </div>
             <table>
               <tr>
@@ -225,7 +259,7 @@ include('./common/navbar.php');
       </div>
     </div>
 
-    
+
 <?php
 include('./common/footer.php');
 ?>
