@@ -26,7 +26,7 @@ body {
 
 .navigation {
   position: fixed;
-  width: 300px;
+  width: 250px;
   height: 100%;
   background: var(--blue);
   border-left: 10px solid var(--blue);
@@ -125,8 +125,8 @@ body {
 
 .main {
   position: absolute;
-  width: calc(100% - 300px);
-  left: 300px;
+  width: calc(100% - 250px);
+  left: 250px;
   min-height: 100vh;
   background: var(--white);
   transition: 0.5s;
@@ -461,11 +461,11 @@ body {
   }
   .navigation
   {    
-    left: -300px;
+    left: -250px;
   }
   .navigation.active
   {
-    width: 300px;
+    width: 250px;
     left: 0;
   }
   .main
@@ -475,7 +475,7 @@ body {
   }
   .main.active
   {
-    left: 300px;
+    left: 250px;
   }
   .cardBox
   {

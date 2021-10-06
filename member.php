@@ -1,81 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>Ultimate Hybrid Plan</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="navigation">
-        <ul>
-          <li>
-            <a href="">
-              <span class="icon"><ion-icon name="logo-apple-ar"></ion-icon></span>
-              <span class="title">Ultimate Company</span>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <span class="icon"
-                ><ion-icon name="home-outline"></ion-icon
-              ></span>
-              <span class="title">Dashboard</span>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <span class="icon"
-                ><ion-icon name="people-outline"></ion-icon
-              ></span>
-              <span class="title">Customers</span>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <span class="icon"
-                ><ion-icon name="chatbubble-outline"></ion-icon
-              ></span>
-              <span class="title">Message</span>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <span class="icon"
-                ><ion-icon name="help-outline"></ion-icon
-              ></span>
-              <span class="title">Help</span>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <span class="icon"
-                ><ion-icon name="settings-outline"></ion-icon
-              ></span>
-              <span class="title">Settings</span>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <span class="icon"
-                ><ion-icon name="lock-closed-outline"></ion-icon
-              ></span>
-              <span class="title">Password</span>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <span class="icon"
-                ><ion-icon name="log-out-outline"></ion-icon
-              ></span>
-              <span class="title">Sign Out</span>
-            </a>
-          </li>
-        </ul>
-      </div>
+<?php
+include('./common/header.php');
+include('./common/navbar.php');
 
+?>
       <!-- main -->
       <div class="main">
         <div class="topbar">
@@ -297,19 +224,8 @@
         </div>
       </div>
     </div>
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
-
-    <script src="./js/my_chart.js"></script>
-
-    <script src="./js/script.js"></script>
-  </body>
-</html>
+    
+<?php
+include('./common/footer.php');
+?>
